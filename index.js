@@ -23,7 +23,7 @@ bot.on("messageUpdate", async(oldMessage, newMessage) => {
     logchannel.sendMessage(logembed)
 })
 bot.on("messageDelete", async message => {
-    var logchannel = bot.channels.get("606657150248419368"); 
+    var logchannel = bot.channels.get("607768828335620136"); 
     let logembed = new Discord.RichEmbed()
     .setAuthor(message.author.tag, message.author.avatarURL)
     .setThumbnail(message.author.avatarURL)
