@@ -39,6 +39,9 @@ bot.on("messageDelete", async message => {
 })
 
 bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
     if (msg.content.includes("Mike gay")){
         msg.channel.sendMessage('Mike gay');
     }
