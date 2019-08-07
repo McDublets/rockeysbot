@@ -49,6 +49,12 @@ bot.on("messageDelete", async message => {
     bot.user.setActivity('your PC camera.', { type: "WATCHING"}).catch(console.error);
 })
 
+bot.on('message', msg=>{
+    if (msg.content === "test"){
+        msg.reply('test');
+    }
+
+
 bot.on('message', message=>{
   
     let args = message.content.substring(PREFIX.length).split(" ");
