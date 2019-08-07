@@ -1,22 +1,11 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = process.env.token;
+const token = 'NjA1NDQ1OTY0ODExMjA2Njk3.XUoilw.jEdoYTUiteyCTkn98DmXGoclm10';
 
 const PREFIX = '!';
 
 var version = '1.0.1';
-
-bot.on('message', msg=>{
-    if (msg.author == bot.user) {
-        return
-    } 
-    (msg.content);{
-         const generalChannel = msg.guild.channels.find(channel => channel.name === "logs")
-    generalChannel.send(msg.content)
-   }
-
-})
 
 bot.on("messageUpdate", async(oldMessage, newMessage) => {
     if(oldMessage.content === newMessage.content){
@@ -50,10 +39,10 @@ bot.on("messageDelete", async message => {
 })
 
 bot.on('message', msg=>{
-    if (msg.content === "Mike gay"){
-        msg.reply('Mike gay');
+    if (msg.content.includes("Mike gay")){
+        msg.channel.sendMessage('Mike gay');
     }
-
+})
 
 bot.on('message', message=>{
   
@@ -73,4 +62,4 @@ bot.on('message', message=>{
                 
     }
 })
-,bot.login(token)});
+bot.login(token);
