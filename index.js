@@ -42,10 +42,19 @@ bot.on('message', msg=>{
     if (msg.author == bot.user) {
         return
     }
-    if (msg.content.includes("Mike gay")){
-        msg.channel.sendMessage('Mike gay');
+    if (msg.content.includes("Mike")){
+        msg.channel.sendMessage('Mike is big gay');
     }
 })
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("mike")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
 
 bot.on('message', message=>{
   
