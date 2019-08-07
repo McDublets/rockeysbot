@@ -55,6 +55,32 @@ bot.on('message', msg=>{
     }
 })
 
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("MIKE")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("m i k e")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("M I K E")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
 
 bot.on('message', message=>{
   
