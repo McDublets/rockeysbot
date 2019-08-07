@@ -89,6 +89,46 @@ bot.on('message', msg=>{
         msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
     }
 })
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("Horse")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("horses")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("Horses")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("HORSE")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("HORSES")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
 
 bot.on('message', message=>{
   
