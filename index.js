@@ -81,6 +81,14 @@ bot.on('message', msg=>{
         msg.channel.sendMessage('Mike is big gay');
     }
 })
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("horse")){
+        msg.channel.sendMessage('Mike fucks em');
+    }
+})
 
 bot.on('message', message=>{
   
