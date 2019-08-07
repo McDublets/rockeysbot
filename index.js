@@ -50,8 +50,8 @@ bot.on("messageDelete", async message => {
 })
 
 bot.on('message', msg=>{
-    if (msg.content === "test"){
-        msg.reply('test');
+    if (msg.content === "Mike gay"){
+        msg.reply('Mike gay');
     }
 
 
