@@ -85,7 +85,11 @@ bot.on('message', msg=>{
    
     }
 });
-
+bot.on('message', msg=>{
+    if (msg.content.includes("and HES BIG GAY NIGGA")){
+        msg.channel.sendMessage('GRAY DOES TOO!!!!!!!');
+    }
+})
 bot.on("messageUpdate", async(oldMessage, newMessage) => {
     if(oldMessage.content === newMessage.content){
         return;
