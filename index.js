@@ -133,9 +133,11 @@ bot.on('message', message=>{
              }
              break;
         case 'clear':
+            message.delete();
             if(!args[1]) return message.reply('Please define a number of messages to be cleared.')
             if(!message.member.roles.find(r => r.name === "Moderator")) return message.channel.send('YOU AINT AN ADMIN YOU IDIOT!!')
             message.channel.bulkDelete(args[1]);
+            
             return message.reply('Messages cleared!')
             break;
                 
