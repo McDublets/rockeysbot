@@ -94,7 +94,7 @@ bot.on("messageUpdate", async(oldMessage, newMessage) => {
     if(oldMessage.content === newMessage.content){
         return;
     }
-    var logchannel = bot.channels.get("551949295784296448");
+    var logchannel = bot.channels.get("606657150248419368");
     let logembed = new Discord.RichEmbed()
     .setAuthor(oldMessage.author.tag, oldMessage.author.avatarURL)
     .setThumbnail(oldMessage.author.avatarURL)
@@ -106,7 +106,7 @@ bot.on("messageUpdate", async(oldMessage, newMessage) => {
     logchannel.sendMessage(logembed)
 })
 bot.on("messageDelete", async message => {
-    var logchannel = bot.channels.get("551949295784296448"); 
+    var logchannel = bot.channels.get("607768828335620136"); 
     let logembed = new Discord.RichEmbed()
     .setAuthor(message.author.tag, message.author.avatarURL)
     .setThumbnail(message.author.avatarURL)
