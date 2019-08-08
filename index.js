@@ -10,6 +10,82 @@ var version = '1.0.1';
 bot.on('message', msg=>{
     if (msg.author == bot.user) {
         return
+    }
+    if (msg.content.includes("Mike")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("mike")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("MIKE")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("m i k e")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("M I K E")){
+        msg.channel.sendMessage('Mike is big gay');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("horse")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("horses")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("Horse")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
+    if (msg.content.includes("HORSE")){
+        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+    }
+})
+
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
     } 
     (msg.content);{
          const logChannel = bot.channels.get("608706319980953610")
