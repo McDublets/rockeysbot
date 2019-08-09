@@ -12,16 +12,6 @@ bot.on('message', msg=>{
         return
     } 
     (msg.content);{
-         const logChannel = bot.channels.get("609184984569348097")
-    logChannel.send(`${msg.author.username}: ${msg.content}`)
-   
-    }
-});
-bot.on('message', msg=>{
-    if (msg.author == bot.user) {
-        return
-    } 
-    (msg.content);{
          const logChannel = bot.channels.get("608706319980953610")
     logChannel.send(`${msg.author.username}: ${msg.content}`)
    
