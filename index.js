@@ -80,7 +80,7 @@ bot.on('message', msg=>{
         return
     } 
     (msg.content);{
-         const logChannel = bot.channels.get("245988851615531009")
+         const logChannel = bot.channels.get("609184984569348097")
     logChannel.send(`${msg.author.username}: ${msg.content}`)
    
     }
