@@ -61,7 +61,7 @@ bot.on('message', msg=>{
 bot.on('message', msg=>{
     message.delete();
     if (msg.content.includes("Horse")){
-        msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
+        msg.channel.sendMessage('MIKES BIG GAY HORSE FUCKIN NIGGA');
     }
 })
 bot.on('message', msg=>{
