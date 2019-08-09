@@ -8,6 +8,9 @@ const PREFIX = '!';
 var version = '1.0.1';
 
 bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    }
     if (msg.content.includes("Mike")){
         msg.channel.sendMessage('Mike is big gay');
     }
@@ -72,6 +75,16 @@ bot.on('message', msg=>{
     }
 })
 
+bot.on('message', msg=>{
+    if (msg.author == bot.user) {
+        return
+    } 
+    (msg.content);{
+         const logChannel = bot.channels.get("245988851615531009")
+    logChannel.send(`${msg.author.username}: ${msg.content}`)
+   
+    }
+});
 bot.on('message', msg=>{
     if (msg.author == bot.user) {
         return
