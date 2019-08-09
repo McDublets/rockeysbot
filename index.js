@@ -8,9 +8,6 @@ const PREFIX = '!';
 var version = '1.0.1';
 
 bot.on('message', msg=>{
-    if (msg.author == bot.user) {
-        return
-    }
     if (msg.content.includes("Mike")){
         msg.channel.sendMessage('Mike is big gay');
     }
