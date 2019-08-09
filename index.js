@@ -59,9 +59,7 @@ bot.on('message', msg=>{
     }
 })
 bot.on('message', msg=>{
-    if (msg.author == bot.user) {
-        return
-    }
+    message.delete();
     if (msg.content.includes("Horse")){
         msg.channel.sendMessage('Mike fucks em, and HES BIG GAY NIGGA');
     }
